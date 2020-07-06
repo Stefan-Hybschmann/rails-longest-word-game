@@ -1,0 +1,11 @@
+<h1>Hello</h1>
+<ul>
+  <% @letters.each do |letter| %>
+    <li><%= letter %></li>
+  <% end %>
+</ul>
+
+<form action="games" method="get">
+  <input type="text" name="answer" placeholder="Type longest word!">
+  <input type="submit" value="answer">
+</form>
